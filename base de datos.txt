@@ -1,0 +1,32 @@
+cBo9C@wQ
+Nombre de la Base de Datos - proyBaches
+Nombre de usuario de la Base de Datos - Baches
+Contraseña - Gomez301097*$$
+
+-tabla usuarios 
+*id
+*Nombre
+*Apellidos
+*Correo
+*Contraseña
+*Edad
+
+-tabla administrador
+*id
+*Nombre
+*Apellidos
+*Correo
+*Contraseña
+
+-tabla reportes
+*id
+*Calle
+*Colonia
+*Ciudad
+*Comentarios
+
+https://haemolysis-tide.000webhostapp.com/proybaches/acceso.php?Correo=urielgomez@gmail.com&Contrase%C3%B1a=Maldonado97
+
+
+
+$consulta="insert into Empleado(Nombre,Ap_Paterno,Ap_Materno,Area) values ('$_REQUEST[Nombre]','$_REQUEST[Ap_Paterno]','$_REQUEST[Ap_Materno]','$_REQUEST[Area]')";
